@@ -33,12 +33,12 @@ xgettext
 
 ## GNU gettext
 
-Current version is `0.19.8.1`.
+Current version is `0.20.1`.
 
 ```zsh
 % heroku run gettext --version
 Runnig gettext --version on   XXXX...up, run.NNNN (XXXX)
-gettext (GNU gettext-runtime) 0.19.8.1
+gettext (GNU gettext-runtime) 0.20.1
 Copyright (C) 1995-1997, 2000-2007 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
@@ -61,8 +61,8 @@ See `profile/heroku-buildpack-gettext.sh`
 % heroku run ldd /app/.heroku/gettext/usr/local/bin/msgfmt
 Running ldd /app/.heroku/gettext/usr/local/bin/msgfmt on ⬢ XXXXX... up, run.NNNN (XXXX)
         linux-vdso.so.1 =>  (0x00007ffc6a6b8000)
-        libgettextsrc-0.19.8.1.so => not found
-        libgettextlib-0.19.8.1.so => not found
+        libgettextsrc-0.20.1.so => not found
+        libgettextlib-0.20.1.so => not found
         libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fe31c615000)
         libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007fe31c3f7000)
         /lib64/ld-linux-x86-64.so.2 (0x00007fe31c9da000)
